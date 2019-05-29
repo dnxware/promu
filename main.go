@@ -1,4 +1,4 @@
-// Copyright © 2016 Prometheus Team
+// Copyright © 2016 dnxware Team
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/prometheus/promu/cmd"
+import "github.com/dnxware/promu/cmd"
 
 func main() {
 	cmd.Execute()

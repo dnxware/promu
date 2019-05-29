@@ -1,4 +1,4 @@
-// Copyright © 2016 Prometheus Team
+// Copyright © 2016 dnxware Team
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@ import (
 	"github.com/pkg/errors"
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
 
-	"github.com/prometheus/promu/util/sh"
+	"github.com/dnxware/promu/util/sh"
 )
 
 var (

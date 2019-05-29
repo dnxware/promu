@@ -1,4 +1,4 @@
-// Copyright © 2016 Prometheus Team
+// Copyright © 2016 dnxware Team
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/prometheus/promu/util/sh"
+	"github.com/dnxware/promu/util/sh"
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
 	yaml "gopkg.in/yaml.v2"
 )
@@ -98,7 +98,7 @@ var (
 	projInfo ProjectInfo
 
 	// app represents the base command
-	app = kingpin.New("promu", "promu is the utility tool for building and releasing Prometheus projects")
+	app = kingpin.New("promu", "promu is the utility tool for building and releasing dnxware projects")
 )
 
 // init prepares flags

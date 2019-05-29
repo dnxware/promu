@@ -1,4 +1,4 @@
-// Copyright © 2017 Prometheus Team
+// Copyright © 2017 dnxware Team
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -23,10 +23,10 @@ func TestRepoLocation(t *testing.T) {
 		s        string // input
 		expected string // expected result
 	}{
-		{"git@github.com:prometheus/promu.git", "github.com/prometheus/promu"},
-		{"https://github.com/prometheus/promu.git", "github.com/prometheus/promu"},
-		{"ssh://git@gitlab.fr:22443/prometheus/promu.git", "gitlab.fr/prometheus/promu"},
-		{"https://sdurrheimer@gitlab.fr/prometheus/promu.git", "gitlab.fr/prometheus/promu"},
+		{"git@github.com:dnxware/promu.git", "github.com/dnxware/promu"},
+		{"https://github.com/dnxware/promu.git", "github.com/dnxware/promu"},
+		{"ssh://git@gitlab.fr:22443/dnxware/promu.git", "gitlab.fr/dnxware/promu"},
+		{"https://sdurrheimer@gitlab.fr/dnxware/promu.git", "gitlab.fr/dnxware/promu"},
 	}
 
 	for _, tc := range repoTests {

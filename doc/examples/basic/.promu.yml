@@ -1,5 +1,5 @@
 repository:
-    path: github.com/prometheus/promu
+    path: github.com/dnxware/promu
 build:
     binaries:
         - name: basic-example

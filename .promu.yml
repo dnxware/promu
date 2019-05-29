@@ -3,16 +3,16 @@ go:
     # .circle/config.yml should also be updated.
     version: 1.12
 repository:
-    path: github.com/prometheus/promu
+    path: github.com/dnxware/promu
 build:
     flags: -mod=vendor -a -tags 'netgo static_build'
     ldflags: |
         -s
-        -X github.com/prometheus/common/version.Version={{.Version}}
-        -X github.com/prometheus/common/version.Revision={{.Revision}}
-        -X github.com/prometheus/common/version.Branch={{.Branch}}
-        -X github.com/prometheus/common/version.BuildUser={{user}}@{{host}}
-        -X github.com/prometheus/common/version.BuildDate={{date "20060102-15:04:05"}}
+        -X github.com/dnxware/common/version.Version={{.Version}}
+        -X github.com/dnxware/common/version.Revision={{.Revision}}
+        -X github.com/dnxware/common/version.Branch={{.Branch}}
+        -X github.com/dnxware/common/version.BuildUser={{user}}@{{host}}
+        -X github.com/dnxware/common/version.BuildDate={{date "20060102-15:04:05"}}
 tarball:
     files:
         - LICENSE
