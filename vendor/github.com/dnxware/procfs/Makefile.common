@@ -66,7 +66,7 @@ GO_VERSION        ?= $(shell $(GO) version)
 GO_BUILD_PLATFORM ?= $(subst /,-,$(lastword $(GO_VERSION)))
 
 PROMU_VERSION ?= 0.2.0
-PROMU_URL     := https://github.com/dnxware/promu/releases/download/v$(PROMU_VERSION)/promu-$(PROMU_VERSION).$(GO_BUILD_PLATFORM).tar.gz
+PROMU_URL     := https://github.com/prometheus/promu/releases/download/v$(PROMU_VERSION)/promu-$(PROMU_VERSION).$(GO_BUILD_PLATFORM).tar.gz
 
 PREFIX                  ?= $(shell pwd)
 BIN_DIR                 ?= $(shell pwd)
